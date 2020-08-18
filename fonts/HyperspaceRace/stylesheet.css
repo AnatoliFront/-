@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Hyperspace Race';
+    src: url('HyperspaceRace-Italic.eot');
+    src: local('Hyperspace Race Italic'), local('HyperspaceRace-Italic'),
+        url('HyperspaceRace-Italic.eot?#iefix') format('embedded-opentype'),
+        url('HyperspaceRace-Italic.woff2') format('woff2'),
+        url('HyperspaceRace-Italic.woff') format('woff'),
+        url('HyperspaceRace-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
