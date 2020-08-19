@@ -3380,10 +3380,18 @@ form button:hover{
 
     .franchise p {
         margin: 10px 0;
+        font-size: 14px;
     }
     .franchise h3 {
         margin: 15px 0 10px 0;
     }
+   .franchise ul li {
+       font-size: 14px;
+       line-height: 18px;
+   }
+   .franchise-wrap h1 {
+       line-height: 24px;
+   }
 }   
 
 
