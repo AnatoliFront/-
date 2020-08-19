@@ -2759,6 +2759,17 @@ form button:hover{
         margin-right: 0px;
         margin-bottom: 20px;
     }
+
+    .splide-3-1 .splide__arrow--next {
+        right: -1em;
+    }
+    .splide-3-1 .splide__arrow--prev {
+        left: -1em;
+    }
+    .splide-3-1 .splide__pagination {
+        bottom: -2em;
+        width: 20%;
+    }
 }
     /*.certificate-col-right ol li {
     height: 35px;
