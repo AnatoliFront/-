@@ -2267,6 +2267,7 @@ form button:hover{
     .attention-line h3{
         font-size: 18px;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     .donation-wrap ul li, .learn ul li{
         width: 46%;
