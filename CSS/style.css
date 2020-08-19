@@ -281,7 +281,7 @@ header{
     transform: translate(-50%, -50%) scale(0);
     width: 30px;
     height: 30px;
-    background-image: url(/img/loopa.png);
+    background-image: url(../img/loopa.png);
     background-size: cover;
     background-repeat: no-repeat;
     transition: .3s;
@@ -326,7 +326,7 @@ header{
 
 .popup-bg::after {
     content: "";
-    background-image: url(/img/close.png);
+    background-image: url(../img/close.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 100;
