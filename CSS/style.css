@@ -1299,8 +1299,8 @@ header{
     text-align: center;
 }
 .dealer ul li img{
-    width: 400px;
-    max-height: 500px;
+    width: 345px;
+    max-height: 430px;
 }
 .dealer ul li h3{
     font-family: Gilroy Bold;
@@ -1634,22 +1634,29 @@ header{
 /*city*/
 .city-wrap{
     width: 100%;
-    padding: 30px 0;
+    padding: 40px 0;
     background: #F0F0F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .city-wrap ul{
     display: flex;
     justify-content: space-around;
     padding-top: 35px;
 }
-.city-wrap .full-slide {
+.city-wrap .container {
+    width: 45%;
+
+}
+/* .city-wrap .full-slide {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .city-wrap .half-slide {
     margin-right: 30px;
-}
+} */
 .city-wrap ul li{
     list-style: none;
     text-align: center;
@@ -1659,7 +1666,16 @@ header{
     max-width: 400px;
     width: 100%;
     max-height: 270px;
+    height: 100%;
      
+}
+
+.city-wrap .splide__arrow--prev {
+    left: 4em;
+}
+
+.city-wrap .splide__arrow--next {
+    right: 4em;
 }
 
  .splide__arrow {
@@ -1671,7 +1687,7 @@ header{
 }
 .splide-3-1 {
     position: relative;
-    margin-bottom: 20px;
+
 }
 .splide-3-2 {
     position: relative;
@@ -2084,17 +2100,12 @@ form button:hover{
     display: none;
 }
 
-.splide-3-1 .splide__arrow--next {
-    right: 8em;
-}
-.splide-3-1 .splide__arrow--prev {
-    left: 6em;
-}
-.splide-3-1 .splide__pagination {
+
+.splide-3-1 .splide__pagination,.splide-3-2 .splide__pagination {
     bottom: -2em;
     width: 10%;
 }
-.splide-3-1 .splide__pagination__page {
+.splide-3-1 .splide__pagination__page .splide-3-2 .splide__pagination__page {
     margin: 0 5px 10px;
     border: 2px solid #77150C;
     border-radius: 15px;
@@ -2102,9 +2113,9 @@ form button:hover{
     width: 10px;
     height: 10px;
 }
-.splide-3-1 .splide__pagination__page.is-active {
+.splide-3-1 .splide__pagination__page.is-active, .splide-3-2 .splide__pagination__page.is-active {
     background: #444444;
-}{}
+}
 
 /* pop-up */
 @media (max-width: 1024px){
@@ -2316,6 +2327,20 @@ form button:hover{
     }
 }
 @media (max-width: 768px){
+    .city-wrap {
+        flex-direction: column;
+    }
+
+    .city-wrap .container {
+        width: 100%;
+    }
+
+    .splide-3-1 {
+        margin-bottom: 60px;
+    }
+    .splide-3-2 {
+        margin-bottom: 20px;
+    }
     .city-wrap ul li img{ 
         width: 330px;
     }
@@ -2768,6 +2793,10 @@ form button:hover{
     }
     .splide-3-1 .splide__pagination {
         bottom: -2em;
+        width: 20%;
+    }
+    .splide-3-2 .splide__pagination {
+    
         width: 20%;
     }
     .splide.certificate-image-mobile .splide__arrow {
@@ -3384,6 +3413,7 @@ form button:hover{
     }
     .franchise h3 {
         margin: 15px 0 10px 0;
+        font-size: 20px;
     }
    .franchise ul li {
        font-size: 14px;
