@@ -125,6 +125,10 @@ header{
     margin: 0 auto 20px;
 }
 
+.secondary-slider .splide__arrow {
+    top: -18em;
+}
+
 .secondary-slider  {
     position: relative;
     max-width: 90%;
@@ -132,11 +136,11 @@ header{
 }
 
 .secondary-slider  .splide__arrow--next {
-    right: -4em;
+    right: -1em;
 }
 
 .secondary-slider  .splide__arrow--prev {
-    left: -4em;
+    left: -1em;
 }
 
 .secondary-slider .splide__list{ 
