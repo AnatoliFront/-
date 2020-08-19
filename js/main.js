@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
         pagination: false,
         arrows: true,
         gap: '2em',
+        autoheight: true,
         breakpoints: {
             1920: {
                 type: 'slide',
