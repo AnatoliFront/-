@@ -3304,17 +3304,6 @@ form button:hover{
         width: 90%;
     }
 
-    .model {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .model-left, .model-right {
-        max-width: 100%;
-        height: auto;
-        border-radius: 20px;
-        margin-bottom: 20px;
-    }
 
     .donation-wrap ul li p  {
         width: 90%;
