@@ -1692,11 +1692,16 @@ header{
 }
 .splide-3-1 {
     position: relative;
-
 }
 .splide-3-2 {
     position: relative;
 }
+
+.splide-3-2  .splide__slide,  .splide-3-1  .splide__slide {
+    display: flex;
+    align-items: center;
+}
+
 .city{
     font-family: Gilroy Bold;
     font-size: 18px;
@@ -2108,7 +2113,7 @@ form button:hover{
 
 .splide-3-1 .splide__pagination,.splide-3-2 .splide__pagination {
     bottom: -2em;
-    width: 10%;
+    width: 25%;
 }
 .splide-3-1 .splide__pagination__page .splide-3-2 .splide__pagination__page {
     margin: 0 5px 10px;
