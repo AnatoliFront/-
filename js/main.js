@@ -21,9 +21,12 @@ document.addEventListener("DOMContentLoaded", function() {
     new Splide( '.splide-3-1', {
         type      : 'loop',
         pagination: false,
+        perPage: 2,
         breakpoints: {
             738: {
                 pagination: true,
+                perPage: 1,
+
             }
         },
         arrowPath: 'M32.7767 34.0693L7.13022 60.7275C5.49879 62.4242 2.85371 62.4242 1.22308 60.7275C-0.407692 59.0324 -0.407692 56.283 1.22308 54.588L23.9163 30.9996L1.22374 7.41195C-0.407032 5.71612 -0.407032 2.96703 1.22374 1.27188C2.8545 -0.423959 5.49945 -0.423959 7.13088 1.27188L32.7774 27.9305C33.5928 28.7785 34 29.8887 34 30.9994C34 32.1107 33.592 33.2217 32.7767 34.0693Z',
@@ -32,9 +35,12 @@ document.addEventListener("DOMContentLoaded", function() {
     new Splide( '.splide-3-2', {
         type      : 'loop',
         pagination: false,
+        perPage: 2,
         breakpoints: {
             738: {
                 pagination: true,
+                perPage: 1,
+
             }
         },
         arrowPath: 'M32.7767 34.0693L7.13022 60.7275C5.49879 62.4242 2.85371 62.4242 1.22308 60.7275C-0.407692 59.0324 -0.407692 56.283 1.22308 54.588L23.9163 30.9996L1.22374 7.41195C-0.407032 5.71612 -0.407032 2.96703 1.22374 1.27188C2.8545 -0.423959 5.49945 -0.423959 7.13088 1.27188L32.7774 27.9305C33.5928 28.7785 34 29.8887 34 30.9994C34 32.1107 33.592 33.2217 32.7767 34.0693Z',
@@ -161,7 +167,7 @@ for (var i = 0; i < linkNav.length; i++) {
             var progress = time - start,
                 r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
                 
-                window.scrollTo(0,r-100);
+                window.scrollTo(0,r-120);
             if (r != w + t) {
                 requestAnimationFrame(step)
             } else {
