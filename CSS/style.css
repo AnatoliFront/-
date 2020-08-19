@@ -66,6 +66,7 @@ header{
 .logo-span{
     font-family: Konexy;
     display: inline-block;
+    background: transparent !important;
 }
 .header-wrap p{
     font-family: Proxima Nova Rg;
