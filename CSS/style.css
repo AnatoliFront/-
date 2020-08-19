@@ -1129,7 +1129,7 @@ header{
 }
 .attention-line-wrap{
     width: 100%;
-    height: 98px;
+    padding: 20px 0;
     background: #F0F0F5;
 }
 .attention-line{
@@ -1142,7 +1142,8 @@ header{
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    margin-top: 35px;
+    max-width: 600px;
+    margin-right: 50px;
 }
 .attention-line p{
     width: 576px;
@@ -2262,7 +2263,7 @@ form button:hover{
         width: 50%;
     }
     .profit-left p, .profit-right ul{
-        width: 95%;
+        width: 96%;
     }
     .attention-line h3{
         font-size: 18px;
