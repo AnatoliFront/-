@@ -1700,6 +1700,8 @@ header{
 .splide-3-2  .splide__slide,  .splide-3-1  .splide__slide {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .city{
