@@ -175,7 +175,7 @@ header{
     justify-content: space-between;
 }
 .hero-text h3{
-    width: 511px;
+    max-width: 530px;
     font-family: Gilroy Bold;
     font-weight: 800;
     font-size: 30px;
