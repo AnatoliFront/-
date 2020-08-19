@@ -2791,6 +2791,12 @@ form button:hover{
     .splide-3-1 .splide__arrow--prev {
         left: -1em;
     }
+    .splide-3-2 .splide__arrow--next {
+        right: -1em;
+    }
+    .splide-3-2 .splide__arrow--prev {
+        left: -1em;
+    }
     .splide-3-1 .splide__pagination {
         bottom: -2em;
         width: 20%;
