@@ -146,7 +146,7 @@ header{
 .hero-wrap{
     width: 100%;
     height: 760px;
-    background: url(img/hero2.jpg);
+    background: url(../img/hero2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
@@ -281,7 +281,7 @@ header{
     transform: translate(-50%, -50%) scale(0);
     width: 30px;
     height: 30px;
-    background-image: url(img/loopa.png);
+    background-image: url(/img/loopa.png);
     background-size: cover;
     background-repeat: no-repeat;
     transition: .3s;
@@ -326,7 +326,7 @@ header{
 
 .popup-bg::after {
     content: "";
-    background-image: url(img/close.png);
+    background-image: url(/img/close.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 100;
@@ -1325,7 +1325,7 @@ header{
     padding-left: 18px;
 }
 .dealer ul li a:before{
-    content: url(img/phone.svg);
+    content: url(../img/phone.svg);
     position: absolute;
     left: -5px;
     top: 2px;
@@ -1618,7 +1618,7 @@ header{
     margin-top: 18px;
 }
 .marketing-bottom li h2:before{
-    content: url(img/mark-vector.svg);
+    content: url(../img/mark-vector.svg);
     padding-right: 15px;
 }
 .marketing-bottom li p{
@@ -2323,7 +2323,7 @@ form button:hover{
         margin: 7px 0 0;
     }
     .hero-wrap{
-        background: url(img/mobile/mobile-hero1.jpg);
+        background: url(../img/mobile/mobile-hero1.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat; 
