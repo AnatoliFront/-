@@ -1952,7 +1952,7 @@ header{
     margin: 0px 20px;
 }
 .fear ul li:hover{
-    max-height: 500px;
+    max-height: 1000px;
     padding-bottom: 20px;
 }
 .fear-title h3{
@@ -2353,7 +2353,8 @@ form button:hover{
         width: 400px;
     }
     .fear-open{
-        width: 370px;
+        max-width: 370px;
+        width: 100%;
     }
     .fear-title img{
         margin-right: 35px;
