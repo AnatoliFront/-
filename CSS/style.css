@@ -1789,11 +1789,10 @@ header{
     color: #000000;
     position: relative;
     margin-left: 103px;
-    max-height: 17px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .opening ol li:before{
     content: counter(li);
@@ -3232,8 +3231,8 @@ form button:hover{
         width: 295px;
         min-height: 10px;
         height: auto;
-        margin-top: 30px;
     }
+
     .item, .slider{
         width: 100%;
     }
@@ -3354,8 +3353,9 @@ form button:hover{
     padding-bottom: 125px;
     }
     .opening ol li:before {
-    top: 55%;
+    top: 50%;
     left: -53px;
+    transform: translateY(-50%);
     }
     .opening ol li {
     display: block;
@@ -3593,7 +3593,7 @@ form button:hover{
         width: 98%;
     }
     .fear-open{
-        width: 97%;
+        width: 90%;
     }
     .fear-title h3{
         font-size: 14px;
