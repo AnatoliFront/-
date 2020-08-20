@@ -116,7 +116,6 @@ header{
     color: #FFFFFF;
 }
 /*header*/
-
 .splide__pagination li {
     width: auto !important;
 }
@@ -125,25 +124,20 @@ header{
     max-width: 80%;
     margin: 0 auto 20px;
 }
-
 .secondary-slider .splide__arrow {
     top: -18em;
 }
-
 .secondary-slider  {
     position: relative;
     max-width: 90%;
     margin: 0 auto;
 }
-
 .secondary-slider  .splide__arrow--next {
     right: -1em;
 }
-
 .secondary-slider  .splide__arrow--prev {
     left: -1em;
 }
-
 .secondary-slider .splide__list{ 
     display: flex;
 }
@@ -257,9 +251,7 @@ header{
     color: #FFFFFF;
 }
 .certificate-image{
-    /* width: 348px; */
     display: flex ;
-
 }
 .certificate-image img{
     max-width: initial;
@@ -365,7 +357,6 @@ header{
     opacity: 1;
     z-index: 100;
 }
-
 /*hero*/
 /*invest*/
 .invest-wrap ul{
@@ -500,7 +491,6 @@ header{
     color: #000000;
     position: relative;
     margin-left: 103px;
-    /*max-height: 40px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -817,10 +807,6 @@ header{
     text-align: center;
     margin: 40px 0;
 }
-/* .franchise{
-    display: flex;
-    justify-content: space-between;
-} */
 .franchise img{
     width: 370px;
     height: 277px;
@@ -852,7 +838,6 @@ header{
 }
 
 .franchise ul li{
-    /* width: 345px; */
     font-family: Proxima Nova Rg;
     font-size: 16px;
     line-height: 19px;
@@ -1681,14 +1666,6 @@ header{
     justify-content: center;
     flex-direction: column;
 }
-/* .city-wrap .full-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.city-wrap .half-slide {
-    margin-right: 30px;
-} */
 .city-wrap ul li{
     list-style: none;
     text-align: center;
@@ -2856,9 +2833,6 @@ form button:hover{
     .no-js .owl-carousel,.owl-carousel.owl-loaded{
     display:block;
     }
-    /* .franchise {
-        display: none;
-    } */
     .franchise div {
     width: 95%;
     }
@@ -2940,23 +2914,10 @@ form button:hover{
         height: 6em;
     }
 }
-    /*.certificate-col-right ol li {
-    height: 35px;
-    width: 284px;
-    margin-bottom: 35px;
-    }*/
-    .splide__arrow {
-        height: 6em;
-        width: 2em;
-    }
-
-
-
-
-
-
-
-
+.splide__arrow {
+    height: 6em;
+    width: 2em;
+}
 .video {
     padding: 50px 0;
 }
@@ -2964,7 +2925,6 @@ form button:hover{
     width: 100%;
     height: 675px;
 }
-
 /********375-425***********/
 @media (max-width: 425px){
     .franchise .splide__arrow--prev {
@@ -2976,22 +2936,18 @@ form button:hover{
     .secondary-slider .splide__arrow--prev {
         left: -1.5em;
     }
-    
     .secondary-slider .splide__arrow--next {
         right: -1.5em;
     }
-
     .hero-rec {
         width: 100%;
     }
-
     .container.video iframe {
         height: 280px;
     }
     .now-phone a{
         text-align: center;
     }
-
     .container {
         width: 400px
     }
@@ -3049,9 +3005,6 @@ form button:hover{
     .red-num{
         margin-top: 25px;
     }
-    /*.red-num li{
-        margin-bottom: 35px;
-    }*/
     .communication h4{  
         max-width: 320px;
         text-align: center;
@@ -3107,9 +3060,6 @@ form button:hover{
     .client-wrap p{
         width: 95%;
     }
-    /* .franchise{
-        flex-direction: column;
-    } */
     .franchise div{
         width: 90%;
         margin: auto;
@@ -3515,39 +3465,28 @@ form button:hover{
     .certificate-col-right {
         padding-bottom: 20px;
     }
-
-
-
     /*-------425--------*/
-
-    .certificate-image-mobile {
+   .certificate-image-mobile {
         display: block;
     }
     .certificate-col-right {
         width: 100%;
     }
-
     footer h1 {
         max-width: 100%;
     }
-
     .splide__arrow--next  {
         right: -1em;
     }
-
     .splide__arrow--prev  {
         left: -1em;
     }
-
-
-
     .hero img {
         margin-top: 0;
         width: 250px;
         max-height: 100%;
         height: auto;
     }
-
     .franchise p {
         margin: 10px 0;
         font-size: 14px;
@@ -3565,25 +3504,15 @@ form button:hover{
    .franchise-wrap h1 {
        line-height: 24px;
    }
-
-
-
    .franchise img {
        width: 80%;
    }
-
    .franchise .splide__slide {
        display: flex;
        flex-direction: column;
        align-items: center;
    }
-
-
 }   
-
-
-
-
 @media (max-width: 375px){
     .technologies iframe{
         width: 98%;
@@ -3609,15 +3538,12 @@ form button:hover{
         width: 344px;
         height: 180px;
     }
-
     .footer-wrap p, .header-wrap p, .now-wrap h1, .now p{
         width: auto;
     }
-
     .brand-text h3, .brand-text p {
         width: auto;
     }
-
     .communication ul li {
         width: 90%;
         margin: 20px 0;
@@ -3625,8 +3551,6 @@ form button:hover{
     .comm-line-3 {
         width: 90%;
     }
-
-
     .donation-wrap ul li p  {
         width: 90%;
     }
@@ -3634,38 +3558,30 @@ form button:hover{
     .communication h4  {
         width: 95%;
     }
-
-  
     .certificate-col-right ol li {
         width: 75%;
         max-width: 100%;
         padding: 0 0px 0 40px;
-    font-size: 14px;
+        font-size: 14px;
     }
-
     .certificate-col-right ol li:before {
         left: 4px;
     }
-
     .certificate-red-rec p {
         padding: 13px;
     }
-
     .presentation-wrap iframe {
         width: 100%;
     }
-
     .dealer ul li img {
         width: 90%;
     }
-
     .city-wrap ul li img {
         width: 90%;
     }
     .opening ol li {
         width: 90%;
     }
-
     header {
         height: 100px;
     }
@@ -3675,7 +3591,6 @@ form button:hover{
     .hero img {
         margin-top: 0;
     }
-
     .invest-wrap ul li {
         padding: 7px;
     }
@@ -3683,10 +3598,7 @@ form button:hover{
         padding-bottom: 20px;
     }
 }
-
-
 @media (max-width: 320px){
-
     .back_main {
         padding: 15px 25px;
     }
@@ -3776,38 +3688,31 @@ form button:hover{
     .communication h4  {
         width: 95%;
     }
-
-  
     .certificate-col-right ol li {
         width: 90%;
         max-width: 100%;
         padding: 0 0px 0 40px;
-    font-size: 14px;
+        font-size: 14px;
     }
 
     .certificate-col-right ol li:before {
         left: 4px;
     }
-
     .certificate-red-rec p {
         padding: 13px;
     }
-
     .presentation-wrap iframe {
         width: 100%;
     }
-
     .dealer ul li img {
         width: 90%;
     }
-
     .city-wrap ul li img {
         width: 90%;
     }
     .opening ol li {
         width: 90%;
     }
-
     header {
         height: 100px;
     }
@@ -3817,7 +3722,6 @@ form button:hover{
     .hero img {
         margin-top: 0;
     }
-
     .invest-wrap ul li {
         padding: 7px;
     }
