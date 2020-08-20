@@ -1143,6 +1143,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .attention-line h3{
     font-family: Gilroy Bold;
@@ -2150,10 +2151,7 @@ form button:hover{
     width: 10px;
     height: 10px;
 }
-.city-slider {
-    width: 100%;
-    margin-bottom: 20px;
-}
+
 .splide-3-1 .splide__pagination__page.is-active, .splide-3-2 .splide__pagination__page.is-active {
     background: #444444;
 }
@@ -2369,6 +2367,10 @@ form button:hover{
     }
 }
 @media (max-width: 768px){
+    .city-slider {
+        width: 100%;
+        margin-bottom: 20px;
+    }
     .city-wrap {
         flex-direction: column;
     }
