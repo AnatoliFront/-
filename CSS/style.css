@@ -73,7 +73,7 @@ header{
     font-size: 16px;
     color: #FFFFFF;
     line-height: 1.9;
-    width: 650px;
+    width: 653px;
 }
 .header-wrap button{
     background: #FFFFFF;
@@ -1316,7 +1316,8 @@ header{
     text-align: center;
 }
 .dealer ul li img{
-    width: 369px;
+    max-width: 369px;
+    width: 100%;
     max-height: 490px;
     height: 100%;
 }
