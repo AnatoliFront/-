@@ -451,10 +451,11 @@ header{
     color: #FFFFFF;
 }
 .certificate-row{
-    height: 192px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 30px 0;
 }
 .certificate-col-left p{
     width: 498px;
@@ -1051,24 +1052,31 @@ header{
 /*profit*/
 .profit-wrap{
     width: 100%;
-    height: 115px;
+    padding: 30px 0;
     background: #77150C;
     margin: 50px 0;
 }
 .profit{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .profit p{
     font-family: Gilroy Bold;
     font-weight: 800;
     font-size: 33px;
-    line-height: 40px;
     color: #FFFFFF;
-    line-height: 115px;
+    line-height: 27px;;
+
+}
+.profit span {
+    font-size: 16px;
+}
+#to_dealers {
+    text-decoration: underline;
+    color: #fff;
 }
 .profit button{
-    margin-top: 32px;
     width: 371px;
     height: 50px;
     background: #FFFFFF;
@@ -1089,7 +1097,6 @@ header{
 .profit-row{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
 }
 .profit-left {
     width: 498px;
@@ -1146,7 +1153,7 @@ header{
     margin-right: 50px;
 }
 .attention-line p{
-    width: 576px;
+    width: 500px;
     font-family: Gilroy Bold;
     font-size: 16px;
     line-height: 20px;
@@ -1284,6 +1291,10 @@ header{
     text-align: center;
 }
 /*portal*/
+.anchor {
+    text-decoration: underline;
+    color: #fff;
+}
 /* dealer */
 .dealer h1{
     font-family: Gilroy Bold;
@@ -1304,8 +1315,9 @@ header{
     text-align: center;
 }
 .dealer ul li img{
-    width: 345px;
-    max-height: 430px;
+    width: 369px;
+    max-height: 490px;
+    height: 100%;
 }
 .dealer ul li h3{
     font-family: Gilroy Bold;
@@ -1340,7 +1352,7 @@ header{
 /* dealer */
 /* now */
 .now-wrap{
-    height: 235px;
+    padding: 25px 0;
     width: 100%;
     background: #77150C;
     margin-top: 80px;
@@ -1353,7 +1365,7 @@ header{
     line-height: 44px;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding: 37px 0;
+ 
 }
 .now{
     display: flex;
@@ -1652,7 +1664,20 @@ header{
 }
 .city-wrap .container {
     width: 45%;
-
+    margin-bottom: 30px;
+}
+.city-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 46%;
+}
+.city-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 /* .city-wrap .full-slide {
     display: flex;
@@ -1676,11 +1701,11 @@ header{
 }
 
 .city-wrap .splide__arrow--prev {
-    left: 4em;
+    left: -3em;
 }
 
 .city-wrap .splide__arrow--next {
-    right: 4em;
+    right: -3em;
 }
 
  .splide__arrow {
@@ -2124,6 +2149,10 @@ form button:hover{
     font: inherit;
     width: 10px;
     height: 10px;
+}
+.city-slider {
+    width: 100%;
+    margin-bottom: 20px;
 }
 .splide-3-1 .splide__pagination__page.is-active, .splide-3-2 .splide__pagination__page.is-active {
     background: #444444;
@@ -2812,11 +2841,11 @@ form button:hover{
     }
     .splide-3-1 .splide__pagination {
         bottom: -2em;
-        width: 20%;
+        width: 30%;
     }
     .splide-3-2 .splide__pagination {
     
-        width: 20%;
+        width: 30%;
     }
     .splide.certificate-image-mobile .splide__arrow {
         height: 6em;
