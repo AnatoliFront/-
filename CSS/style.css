@@ -1952,7 +1952,7 @@ header{
     margin: 0px 20px;
 }
 .fear ul li:hover{
-    max-height: 200px;
+    max-height: 500px;
     padding-bottom: 20px;
 }
 .fear-title h3{
