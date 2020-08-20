@@ -2902,7 +2902,9 @@ form button:hover{
     .container.video iframe {
         height: 280px;
     }
-
+    .now-phone a{
+        text-align: center;
+    }
 
     .container {
         width: 400px
